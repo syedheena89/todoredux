@@ -33,7 +33,6 @@ const ItemForm = ({ taskType, modal, setModal, id, setId }) => {
     image: "",
   });
   let title = useSelector((currState) => currState.title);
-  let toDo = useSelector((currState) => currState.toDo);
   let dispatch = useDispatch();
   const handleSave = async (values) => {
      setInitialValues(values)
